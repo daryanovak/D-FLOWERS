@@ -1,0 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400'); */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 2000px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    height: 100%;
+}
+
+p, h1, h2, h3, h4 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    margin-top: 110px;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        margin-top: 90px;
+    }
+}

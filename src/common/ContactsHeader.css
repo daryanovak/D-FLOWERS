@@ -1,0 +1,54 @@
+.contactsHeaderContainer {
+    height: 40px;
+    background-color: #388E3C;
+}
+.contactsHeader {
+    display: flex;
+    align-items: center;
+    color: #C8E6C9;
+    max-width: 1440px;
+    height: 100%;
+}
+
+
+.contactsHeader  a {
+    text-decoration: none;
+    color: #C8E6C9;
+}
+
+.phoneNumber {
+    font-weight: 500;
+}
+
+.phoneNumber svg {
+    margin-right: 10px;
+}
+
+.contactsIconsWrapper {
+    display: flex;
+    margin-left: auto;
+}
+
+.contactsIconsWrapper > * {
+    font-size: 28px;
+    margin-left: 12px;
+}
+
+@media (max-width: 410px) {
+    .phoneNumber {
+        font-size: 20px;;
+    }
+}
+
+@media (max-width: 350px) {
+    .phoneNumber {
+        font-size: 18px;;
+    }
+}
+
+@media (max-width: 330px) {
+    .phoneNumber {
+        font-size: 17px;;
+    }
+}
+

@@ -1,0 +1,19 @@
+.container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1488px) {
+    .container {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+}
