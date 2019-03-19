@@ -19,8 +19,7 @@ export class Contacts extends React.Component {
                                     <h4>FLOWER STATION</h4>
                                 </div>
                                 <p>
-                                    Fresh Flowers Delivered: <br/>
-                                      Our shop is open 24 hours a day.
+                                FRESH FLOWERS DELIVERED: OUR SHOP IS OPEN 24 HOURS A DAY"
                                 </p>
 
                             </div>
@@ -81,22 +80,6 @@ export class Contacts extends React.Component {
                                
                             </div>
                             </div>
-
-                            {/* <div className={css.communicationSupportt}>
-                                <h4>Мы поддерживаем</h4>
-                                <a href="viber://contact?number=%2B375296563803">
-                                    <FontAwesomeIcon icon={faViber} />
-                                </a>
-                                <a href="whatsapp://send?phone=+375296563803" data-action="share/whatsapp/share">
-                                    <FontAwesomeIcon icon={faWhatsappSquare} />
-                                </a>
-                                <a href="skype:ignashevich3?chat">
-                                    <FontAwesomeIcon icon={faSkype} />
-                                </a>
-
-
-
-                            </div> */}
                         </div>
 
                     </div>

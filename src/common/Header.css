@@ -1,16 +1,46 @@
 .header {
     width: 100%;
-    height: 110px;
-    position: fixed;
+    height: 60px;
     top: 0;
-    background-color: #4CAF50;
+    background-color: black;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 25px;
     z-index: 100;
     box-shadow: #747474 0px 1px 14px 0px;
-    transition: height 300ms ease-out;
+    /* transition: height 300ms ease-out; */
 }
 
+.navigation {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigationMenu{
+    display: flex;
+    font-size: 15px;
+}
+
+.navigationMenu div{
+    margin-right: 150px;
+}
+
+.logo {
+    margin: 13px auto;
+    margin-right: 0;
+}
+
+.logo h1 {
+    margin-left: 15px;
+}
+
+.menu{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 21px;
+}
+
+/* 
 .navigation {
     height: 70px;
     display: flex;
@@ -81,7 +111,7 @@
 
 .link-label {
     padding-bottom: 3px;
-}
+} */
 
 @media screen and (max-width: 500px) {
     .header {

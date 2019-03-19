@@ -32,10 +32,18 @@ export class Header extends React.Component {
     render() {
         return (
             <header className={ cx(css.header, this.state.burgerIsOpen && css.responsive) }>
-                <ContactsHeader />
                 <ContentContainer>
                     <nav className={ css.navigation }>
-                        <a to='/' className={ css.logo }>tulpan-mart.by</a>
+                        <div className={css.navigationMenu}>
+                            <div className={css.logo}><h1>MART&TULIP</h1></div>
+                            <div className={css.menu}>
+                            <div>ABOUT</div>
+                            <div>HELP</div>
+                            <div>GALLERY</div>
+                            <div>TRASH</div>
+                            <div>FLOWERS</div>
+                            </div>
+                        </div>
                         <BurgerIcon burgerIsOpen={ this.state.burgerIsOpen } toggleBurgerIsOpen={ this.toggleBurgerIsOpen } headerRef={ this.ref } />
                     </nav>
                 </ContentContainer>

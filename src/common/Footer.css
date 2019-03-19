@@ -1,9 +1,10 @@
 .container {
     height: 80px;
-    background-color: #388E3C;
+    background-color: black;
     width: 100%;
     display: flex;
     align-items: center;
+    box-shadow: #747474 0px 1px 14px 0px;
 }
 
 .logo {

@@ -13,26 +13,20 @@ export class Carousel extends React.Component {
       slidesToScroll: 1
     };
     return (
-      <Slider className={ css.carousel } {...settings}>
+      <Slider className={css.carousel} {...settings}>
         <div>
           <h3>
-            <div className={ css.image1 } />
+            <div className={css.image1} />
           </h3>
         </div>
         <div>
-          <h3>2</h3>
+          <h3> <div className={css.image2} /></h3>
         </div>
         <div>
-          <h3>3</h3>
+          <h3> <div className={css.image3} /></h3>
         </div>
         <div>
-          <h3>4</h3>
-        </div>
-        <div>
-          <h3>5</h3>
-        </div>
-        <div>
-          <h3>6</h3>
+          <h3> <div className={css.image4} /></h3>
         </div>
       </Slider>
     );

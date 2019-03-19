@@ -1,6 +1,7 @@
 *{
   font-family: 'Karla', sans-serif;
 }
+
 .headline {
   font-size: 28px;
   font-weight: bold;
@@ -8,7 +9,7 @@
 }
 
 .main-header-container {
-  display: flex
+  display: flex;
 }
 
 .advantages-row {

@@ -1,6 +1,6 @@
 .contactsHeaderContainer {
-    height: 40px;
-    background-color: #388E3C;
+    height: 10px;
+    background-color: white;
 }
 .contactsHeader {
     display: flex;
