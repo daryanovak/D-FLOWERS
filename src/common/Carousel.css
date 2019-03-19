@@ -1,0 +1,11 @@
+.carousel {
+    height: 550px;
+}
+
+.image1 {
+    background-image: url('../../public/images/flower_bd.jpg');
+    height: 550px;
+    width: 100%;
+    background-position-y: -120px;
+    background-size: cover;
+}

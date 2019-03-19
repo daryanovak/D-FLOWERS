@@ -27,7 +27,9 @@
     "react-images": "^0.5.19",
     "react-photo-gallery": "^6.3.0",
     "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.2",
     "sass-loader": "^7.0.1",
+    "slick-carousel": "^1.8.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.20.2"
   },

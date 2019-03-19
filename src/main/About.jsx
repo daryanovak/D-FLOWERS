@@ -9,21 +9,16 @@ export class About extends React.Component {
                 <ContentContainer className={css.container}>
                     <div className={css.aboutTextWrapper}>
                         <h2 className={css.aboutTextTitle}>
-                            Наши приоритеты
+                        Quintessentially Flowers - Luxury Florists in London
                     </h2>
                         <p className={css.aboutText}>
-                            Мы предлагаем Вам отличный сервис и первоклассные цветы собственного производства. 
-                            <br />
-                            <br />
-                            Мы крайне заинтересованы в качестве продукции и в успехе Вашей реализации.
-                            <br />
-                            <br />
-                            Мы проконсультируем Вас по любому возникшему у Вас вопросу, также, по согласованию с Вами, 
-                            проведем предпродажную подготовку цветов.
+                        <p>Quintessentially Flowers are seasoned experts in choosing the freshest luxury flowers at the daily London markets. Each experienced florist, personally prepares & designs each luxury flower arrangement, ensuring it has just the right balance, shape, colour, scent and elegance.</p>
+                        <br/>
+
+Our Head Florist and Director is Monika Parafianowicz who after completing art college established herself in the London floristry scene very quickly. She has successfully graduated from an excellent two year UK floristry course and worked with many well known flower designers over the years, where she gained a wealth of experience.
+
+Dorota Hassall is the senior florist and director at Quintessentially Flowers.  She qualified as an English teacher but decided to follow her one true passion after moving to London.  Dorota has worked with many of the most respected floral designers in the UK & London and successfully qualified as a florist after a two year extensive floristry course in London.
                 </p>
-                    </div>
-                    <div className={css.aboutImageWrapper}>
-                        <img className={css.aboutImage} src='https://firebasestorage.googleapis.com/v0/b/tulpan-mart-1526219658606.appspot.com/o/gallery%2Fabout-image.jpg?alt=media&token=2aeced96-3a46-4f35-988b-e9b949e9087b' alt="About image" />
                     </div>
                 </ContentContainer>
             </section>
