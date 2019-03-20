@@ -7,21 +7,25 @@
   font-size: 20px;
   padding: 20px 0px;
   text-transform: uppercase;
-  margin-top: 12px;
   border-radius: 20px;
   text-align: center;
   letter-spacing: 5px;
 }
 
+.text {
+  width: 560px;
+  margin: 0 auto;
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  text-indent: 1.5em;
+  margin: 30px auto;
+}
+
 .content {
   display: flex;
   flex-direction: column;
-}
-
-.text-wrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 64px 0 0 0;
 }
 
 .headline {
@@ -41,7 +45,11 @@
 }
 
 .textWrapper{
-  align-content: center;
+  white-space: pre-wrap;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  text-indent: 1.5em; /* Отступ первой строки */
 }
 
 @media (max-width: 1080px) {

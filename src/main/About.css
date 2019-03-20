@@ -12,17 +12,17 @@
 
 .about-text-title {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin: 18px 0 18px 0;
+    letter-spacing: 5px;
 }
 
 .about-text {
     white-space: pre-wrap;
-    text-align: left;
-    font-size: 25px;
+    text-align: center;
+    font-size: 15px;
     line-height: 1.8;
     text-indent: 1.5em; /* Отступ первой строки */
-    text-align: justify; /* Выравнивание по ширине */
 }
 
 .about-image {

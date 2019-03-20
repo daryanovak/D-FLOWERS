@@ -35,11 +35,11 @@ export class Header extends React.Component {
                     <nav className={css.navigation}>
                         <div className={css.logo}><h1>Flowers&Temptation</h1></div>
                         <div className={css.menu}>
-                            <strong>FLOWERS</strong>
-                            <strong>MOTHER'S DAY</strong>
-                            <strong>VALENTINE'S DAY</strong>
-                            <strong>ABOUT</strong>
-                            <strong>ABOUT</strong>
+                            <div>FLOWERS</div>
+                            <div>MOTHER'S DAY</div>
+                            <div>VALENTINE'S DAY</div>
+                            <div>ABOUT</div>
+                            <div>ABOUT</div>
                         </div>
                         <BurgerIcon burgerIsOpen={this.state.burgerIsOpen} toggleBurgerIsOpen={this.toggleBurgerIsOpen} headerRef={this.ref} />
                     </nav>

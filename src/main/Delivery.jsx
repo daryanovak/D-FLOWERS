@@ -13,11 +13,11 @@ export class Delivery extends React.Component {
                         <div className={css.imageWrapper}>
                             <img className={css.image} src='https://dy1yydbfzm05w.cloudfront.net/media/wysiwyg/how-it-work.png' alt="Bus image" />
                         </div>
-                        <div className={css.textWrapper}>
-                            <p className={css.text}>
-                                With over 300 seasonal varieties to choose from, we source directly from the grower and are proud to offer flowers that are days fresher than a florist or local market. We also understand busy lifestyles, so with Same Day (London only), Next Day, Pre-12 and Click & Collect delivery, you can be sure your flowers arrive fast and make a beautiful impression every time.
+
+                        <p className={css.text}>
+                            With over 300 seasonal varieties to choose from, we source directly from the grower and are proud to offer flowers that are days fresher than a florist or local market. We also understand busy lifestyles, so with Same Day (London only), Next Day, Pre-12 and Click & Collect delivery, you can be sure your flowers arrive fast and make a beautiful impression every time.
                         </p>
-                        </div>
+
                     </div>
                 </ContentContainer>
             </section>

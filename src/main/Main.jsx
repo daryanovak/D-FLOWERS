@@ -15,8 +15,8 @@ export class Main extends React.Component {
                 <ContentContainer>
                     <Carousel />
                 </ContentContainer>
-                <Delivery />
                 <About />
+                <Delivery />
                 <Contacts />
             </div>
         );

@@ -15,12 +15,23 @@ export class Contacts extends React.Component {
                         <div className={css.communication}>
                             <div className={css.flowerstation}>
                                 <div className={css.article}>
-                                    <img className={css.image} src="'../../public/images/icon.png" alt="" />
+                                    {/* <img className={css.image} src="'../../public/images/icon.png" alt="" /> */}
                                     <h4>FLOWER STATION</h4>
                                 </div>
                                 <p>
                                     FRESH FLOWERS DELIVERED: OUR SHOP IS OPEN 24 HOURS A DAY"
                                 </p>
+                            </div>
+                            <div className={css.getintouch}>
+                                <div className={css.article}>
+                                    {/* <img className={css.image} src="'../../public/images/location.jpg" alt="" /> */}
+                                    <h4>GET IN TOUCH WITH US</h4>
+                                </div>
+                                <p>55 PARK ROAD, LONDON, NW1 6XU
+                                    <br />
+                                    PHONE: +44 207 724 7525
+                                    <br />
+                                    FLOWERSTATION.CO.UK</p>
                             </div>
                             <div className={css.communicationSupport}>
                                 <div className={css.article}>
@@ -49,17 +60,6 @@ export class Contacts extends React.Component {
 
                                     </div>
                                 </div>
-                            </div>
-                            <div className={css.getintouch}>
-                                <div className={css.article}>
-                                    <img className={css.image} src="'../../public/images/location.jpg" alt="" />
-                                    <h4>GET IN TOUCH WITH US</h4>
-                                </div>
-                                <p>55 PARK ROAD, LONDON, NW1 6XU
-                                    <br />
-                                    PHONE: +44 207 724 7525
-                                    <br />
-                                    FLOWERSTATION.CO.UK</p>
                             </div>
                             {/* <div className={css.location}>
                                 <div className={css.locationContent}>
