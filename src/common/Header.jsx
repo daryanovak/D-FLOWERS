@@ -33,7 +33,7 @@ export class Header extends React.Component {
             <header className={cx(css.header, this.state.burgerIsOpen && css.responsive)}>
                 <ContentContainer>
                     <nav className={css.navigation}>
-                        <div className={css.logo}><h1>Flowers&Temptation</h1></div>
+                        <div className={css.logo}><h1>D&FLOWERS</h1></div>
                         <div className={css.menu}>
                             <div>FLOWERS</div>
                             <div>MOTHER'S DAY</div>
