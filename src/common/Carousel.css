@@ -3,23 +3,23 @@
 }
 
 .image1 {
-    background-image: url('../../public/images/flower_bd.jpg');
+    background-image:url('../../public/images/tulipwhite.jpg');
     height: 550px;
     width: 100%;
-    background-position-y: -120px;
     background-size: cover;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
 }
 
 .image2 {
-    background-image: url('../../public/images/white_tulip.jpg');
+    background-image: url('../../public/images/mother.jpg');
     height: 550px;
     width: 100%;
-    background-position-y: -120px;
     background-size: cover;
 }
 
 .image3 {
-    background-image: url('../../public/images/flowers-bg2.jpg');
+    background-image: url('../../public/images/white_tulip.jpg');
     height: 550px;
     width: 100%;
     background-position-y: -150px;
@@ -33,3 +33,49 @@
     background-position-y: -120px;
     background-size: cover;
 }
+
+/* .carousel {
+    height: 550px;
+}
+
+.image1 {
+    background-image:url('../../public/images/tulip.jpg');
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-position-y: -30px;
+}
+
+.image1 > p {
+    font-family: 'Satisfy', cursive;
+        font-size: 150px;
+    position: absolute;
+    left: 504px;
+    top: 164px;
+    color: white;
+
+}
+
+.image2 {
+    background-image: url('../../public/images/flower_bd.jpg');
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url('../../public/images/white_tulip.jpg');
+    height: 550px;
+    width: 100%;
+    background-position-y: -150px;
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url('../../public/images/flowers-bg3.jpg');
+    height: 550px;
+    width: 100%;
+    background-position-y: -120px;
+    background-size: cover;
+} */

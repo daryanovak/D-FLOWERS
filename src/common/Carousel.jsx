@@ -16,7 +16,7 @@ export class Carousel extends React.Component {
       <Slider className={css.carousel} {...settings}>
         <div>
           <h3>
-            <div className={css.image1} />
+            <div className={css.image1} ><p> </p></div>
           </h3>
         </div>
         <div>
